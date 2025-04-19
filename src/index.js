@@ -1,0 +1,1 @@
+export {default as LoginPage} from './Modules/Login/LoginPage'
