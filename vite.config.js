@@ -20,5 +20,9 @@ export default defineConfig({
         },
       },
     },
+    minify: false,
+  // 🛠️ Keeps component files separate (helps Tailwind see class names)
+  preserveModules: true,
+  preserveModulesRoot: 'src'
   },
 });
