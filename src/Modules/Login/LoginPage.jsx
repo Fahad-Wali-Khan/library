@@ -9,6 +9,7 @@ import { Button } from "primereact/button";
 import { Dropdown } from "primereact/dropdown";
 import { Formik } from "formik";
 import * as Yup from "yup";
+import '../../Modules/index.css'
 // import { Image } from 'primereact/image';
 
 import { useState } from "react";
