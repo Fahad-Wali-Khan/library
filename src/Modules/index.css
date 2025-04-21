@@ -1,1 +1,9 @@
-@import "tailwindcss";
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+/* @import "tailwindcss/preflight.css" layer(base); */
+@import "tailwindcss/utilities.css" layer(utilities);
+ 
+/* PrimeReact core & theme styles */
+@import "primereact/resources/themes/viva-light/theme.css";  /* You can change the theme */
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
