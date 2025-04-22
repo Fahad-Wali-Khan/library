@@ -7,10 +7,8 @@ import LoginPage from '../../src/Modules/Login/LoginPage'
 
 function App() {
   return (
-    <div>
-      <h1 className='bg-red-300'>Hello V</h1>
       <LoginPage/>
-    </div>
+    
   )
 }
 
